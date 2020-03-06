@@ -475,3 +475,11 @@ spring.datasource.username=test
 spring.datasource.password=test
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
+
+java -jar -Dserver.port=8084 -Dspring.profiles.active=dev cse-svc-delivery-0.0.1-SNAPSHOT.jar $
+{"dateofBirth":"2020_03_05"} 
+http://localhost:8084/hello/muka
+
+http://localhost:8084/hello/muka
+
+
